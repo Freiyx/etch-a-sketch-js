@@ -83,3 +83,10 @@ button{
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 1024px){
+    #grid{
+        width: 550px;
+        height: 550px;
+    }
+}
