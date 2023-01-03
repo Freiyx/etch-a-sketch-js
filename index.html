@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Etch a Sketch</title>
+        <meta name="description" content="etch a sketch">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/af41ac45ba.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="btn-div">
+            <button onClick="setGrid()" id="set-grid">Set Grid</button>
+        </div>
+        <div id="grid-container" draggable="false">
+            <div id="grid" draggable="false">
+
+            </div>
+        </div>
+        <div id="controls">
+            <button onClick="clearGrid()" id="clear-grid">Clear Grid</button>
+            <input id='set-color' type="color" value="#000000" />
+            <button id="toggle-grid">Toggle grid</button>
+            <button id="eraser-mode">Eraser Mode : Off</button>
+            <button onClick="fill()" id="fill-grid">Fill</button>
+        </div>
+        <div id="footer">
+            Made By &nbsp<a style="text-decoration: none" href="https://github.com/Freiyx">Freiyx &nbsp <i class="fa-brands fa-github-alt"></i></a>
+        </div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

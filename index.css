@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Happy Monkey', cursive;
+
+}
+
+button{
+    font-family: 'Happy Monkey', cursive;
+    border: none;
+    cursor: pointer;
+    background-color: #34cfeb;
+    color: white;
+    border-radius: 7.5px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    padding: 10px 20px;
+
+}
+
+#btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;    
+}
+
+#grid-container{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grid{
+    border: 1px solid black;
+    width: 700px;
+    height: 700px;
+}
+
+.box{
+    height: auto;
+}
+
+.hover{
+    background-color: #d5d7db;
+}
+
+.clicked{
+    background-color: black;
+}
+
+#controls{
+    flex: 1;
+}
+
+.box-border{
+    border: 1px solid #d5d7db;
+}
+
+#controls{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#controls button{
+    min-width: 70px;
+    padding: 10px 20px;
+}
+
+#footer{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
